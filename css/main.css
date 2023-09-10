@@ -531,6 +531,54 @@ h2 {
     color: #525C60;
 }
 
+.types-products {
+    padding: 140px 0;
+    background-color: #EFF6F1;
+}
+
+.types-products__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.types-products__block {
+    width: 480px;
+    height: 580px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/types-prod/bg-1.png);
+}
+
+.types-products__block:nth-child(2) {
+    background-image: url(/img/types-prod/bg-2.png);
+}
+
+.types-products__block:nth-child(3) {
+    background-image: url(/img/types-prod/bg-3.png);
+}
+
+.types-products__content p{
+    padding: 30px 80px;
+    
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+    
+    color: #274C5B;
+    background: #FFF;
+}
+
+
 
 
 
