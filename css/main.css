@@ -551,17 +551,26 @@ h2 {
     justify-content: center;
     align-items: center;
     background-image: url(/img/types-prod/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .types-products__block:nth-child(2) {
     background-image: url(/img/types-prod/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
 .types-products__block:nth-child(3) {
     background-image: url(/img/types-prod/bg-3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
 
-.types-products__content p{
+.types-products__content{
     padding: 30px 80px;
     
     display: inline-block;
@@ -578,6 +587,144 @@ h2 {
     background: #FFF;
 }
 
+.subscribe {
+    padding-top: 31px;
+}
+
+.subscribe__row {
+    padding: 100px 70px;
+
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    background-image: url(../img/subscribe/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.subscribe__text {
+    width: 324px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
+
+.subscribe__email {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.subscribe__email input {
+    width: 320px;
+    height: 30px;
+    padding: 26px 0 26px 30px;
+
+    border-radius: 16px;
+    border: 1px solid #CCC;
+}
+
+.subscribe .btn span{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.36px;
+}
+
+.footer {
+    padding: 89px 0 85px;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-us {
+    text-align: right;
+}
+
+.footer__title {
+    margin-bottom: 34px;
+
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0.36px;
+
+    color: #274C5B;
+}
+
+.footer__contact {
+    margin-bottom: 5px;
+
+    font-family: 'Open Sans';
+    font-weight: 700;
+    line-height: 23.4px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.contact-us a, .footer__address {
+    margin-bottom: 38px;
+
+    font-family: 'Open Sans';
+    font-size: 17px;
+    line-height: 28.8px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.footer__main {
+    padding: 0 52px;
+    text-align: center;
+    border-left: 1px solid #D5D5D5;
+    border-right: 1px solid #D5D5D5;
+}
+
+.footer__main .logo {
+    margin: 0 0 44px;
+    justify-content: center;
+}
+
+.footer__main__text {
+    width: 480px;
+    margin-bottom: 60px;
+
+    font-family: 'Open Sans';
+    font-weight: 400;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+    color: #525C60;
+}
+
+.soc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.soc img {
+    border: 22px solid #EFF6F1;
+    border-radius: 100px;
+
+    background: #EFF6F1;
+}
+
+.footer__map {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
 
 
